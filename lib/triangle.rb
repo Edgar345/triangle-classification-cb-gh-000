@@ -14,10 +14,10 @@ class Triangle
       #find type of triangle
       if a == b && b == c
         :equilateral
-      end
-
-      if a == b || b == c || a == c
+      elsif a == b || b == c || a == c
         :isosceles
+      else 
+        
       end
     end
   end
