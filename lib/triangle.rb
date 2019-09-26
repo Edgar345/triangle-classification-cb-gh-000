@@ -12,6 +12,9 @@ class Triangle
 
     if self.is_valid
       #find type of triangle
+      if a == b && b == c
+
+      end
     end
   end
 
