@@ -11,7 +11,7 @@ class Triangle
     puts self.is_valid
 
     if self.is_valid
-
+      #find type of triangle
     end
   end
 
