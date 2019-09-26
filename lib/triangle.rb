@@ -17,7 +17,7 @@ class Triangle
     # or if a + b < c || a + c < b || b + c < a
     # ex. 7, 3, 2 ex. 2, 4, 2
 
-    if 
+    if
   end
 
   class TriangleError < StandardError
