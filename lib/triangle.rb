@@ -13,7 +13,7 @@ class Triangle
     if self.is_valid
       #find type of triangle
       if a == b && b == c
-
+        :equilateral
       end
     end
   end
