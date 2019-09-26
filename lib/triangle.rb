@@ -1,10 +1,10 @@
 class Triangle
-  attr_accessor :length_1, :length_2, :length_3
+  attr_accessor :a, :b, :c
 
-  def initialize length_1, length_2, length_3
-    @length_1 = length_1
-    @length_2 = length_2
-    @length_3 = length_3
+  def initialize a, b, c
+    @a = a
+    @b = b
+    @c = c
   end
 
   def kind
@@ -12,7 +12,12 @@ class Triangle
   end
 
   def is_valid
+    #triangle is illegal if one of the sides is less than 0
+    # a <= 0 || b <= 0 || c <= 0
+    # or if a + b < c || a + c < b || b + c < a
+    # ex. 7, 3, 2 ex. 2, 4, 2
 
+    if 
   end
 
   class TriangleError < StandardError
