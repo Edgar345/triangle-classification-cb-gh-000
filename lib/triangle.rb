@@ -20,7 +20,9 @@ class Triangle
         :scalene
       end
     else
-      raise TriangleError
+      begin
+        raise TriangleError
+      rescue TriangleError => e
     end
   end
 
