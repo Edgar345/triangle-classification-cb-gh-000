@@ -17,7 +17,7 @@ class Triangle
       end
 
       if a == b || b == c || a == c
-
+        :isosceles
       end
     end
   end
