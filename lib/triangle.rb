@@ -16,7 +16,7 @@ class Triangle
         :equilateral
       elsif a == b || b == c || a == c
         :isosceles
-      else 
+      else
         
       end
     end
