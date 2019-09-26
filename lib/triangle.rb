@@ -15,6 +15,10 @@ class Triangle
       if a == b && b == c
         :equilateral
       end
+
+      if a == b || b == c || a == c
+
+      end
     end
   end
 
