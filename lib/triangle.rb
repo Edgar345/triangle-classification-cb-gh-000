@@ -15,7 +15,7 @@ class Triangle
     #triangle is illegal if one of the sides is less than 0
     # a <= 0 || b <= 0 || c <= 0
     # or if a + b < c || a + c < b || b + c < a
-    # ex. 7, 3, 2 ex. 2, 4, 2
+    # ex. 7, 3, 2 ex. 2, 4, 2 ex. 1, 1, 3
 
     #valid triangle
     if a > 0 && b > 0 && c > 0 && a + b > c && a + c > b && b + c > a
