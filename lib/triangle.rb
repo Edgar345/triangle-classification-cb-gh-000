@@ -9,6 +9,10 @@ class Triangle
 
   def kind
     puts self.is_valid
+
+    if self.is_valid
+
+    end
   end
 
   def is_valid
