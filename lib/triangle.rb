@@ -8,7 +8,7 @@ class Triangle
   end
 
   def kind
-    
+
   end
 
   def is_valid
