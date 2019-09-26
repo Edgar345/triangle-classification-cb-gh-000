@@ -17,8 +17,9 @@ class Triangle
     # or if a + b < c || a + c < b || b + c < a
     # ex. 7, 3, 2 ex. 2, 4, 2
 
+    #valid triangle
     if a > 0 && b > 0 && c > 0 && a + b > c && a + c > b && b + c > a
-      #valid triangle
+
     end
   end
 
